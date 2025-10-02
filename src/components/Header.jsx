@@ -19,7 +19,7 @@ const Header = ({ setOpenModal }) => {
 
       {/* Desktop nav */}
       <nav className="hidden md:flex items-center gap-12">
-        <button onClick={() => openModal("company")} className="hover:text-[#e99b63]">Current Company</button>
+        <button onClick={() => openModal("company")} className="hover:text-[#e99b63]">Experience</button>
         <button onClick={() => openModal("skills")} className="hover:text-[#e99b63]">Skills</button>
         <button onClick={() => openModal("hobbies")} className="hover:text-[#e99b63]">Hobbies</button>
         <button onClick={() => openModal("about")} className="hover:text-[#e99b63]">About</button>
@@ -39,7 +39,7 @@ const Header = ({ setOpenModal }) => {
       {/* Mobile vertical menu */}
       {isMobileMenuOpen && (
         <div className="fixed top-16 left-0 right-0 p-5 bg-black bg-opacity-90 backdrop-blur-md z-40 flex flex-col gap-6 items-center">
-          <button onClick={() => openModal("company")} className="text-lg hover:text-[#e99b63]">Current Company</button>
+          <button onClick={() => openModal("company")} className="text-lg hover:text-[#e99b63]">Experience</button>
           <button onClick={() => openModal("skills")} className="text-lg hover:text-[#e99b63]">Skills</button>
           <button onClick={() => openModal("hobbies")} className="text-lg hover:text-[#e99b63]">Hobbies</button>
           <button onClick={() => openModal("about")} className="text-lg hover:text-[#e99b63]">About</button>
