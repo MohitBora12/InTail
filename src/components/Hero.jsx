@@ -1,8 +1,7 @@
 const Hero = () => {
   return (
-    <main className="flex flex-col-reverse lg:flex-row justify-between items-start lg:items-center min-h-screen relative px-6 lg:px-20 pt-28 lg:pt-32">
+    <main className="flex flex-col-reverse lg:flex-row justify-between items-start lg:items-center min-h-screen relative px-6 lg:px-20 pt-28 lg:pt-32 pb-16 lg:pb-24">
 
-      {/* My Info Section */}
       <div className="flex-1 z-10 flex flex-col justify-center mt-0 lg:mt-0 lg:mr-10">
         <div className="relative w-[90%] sm:w-52 h-12 bg-gradient-to-r from-[#656565] to-[#e99b63] shadow-md rounded-full mb-6">
           <div className="absolute inset-[3px] bg-black rounded-full flex items-center justify-center text-sm font-medium text-white">
@@ -16,7 +15,7 @@ const Hero = () => {
           Engineer | Problem Solver
         </h1>
 
-        {/* Who Am I */}
+        {/* Who is Mohit*/}
         <div className="text-gray-300 text-base sm:text-lg max-w-lg mb-8 space-y-4 leading-relaxed text-justify">
           <p>
             I am Mohit Bora, a software engineer from Bageshwar, Uttarakhand.  
@@ -28,15 +27,12 @@ const Hero = () => {
           </p>
         </div>
 
-        <div className="bg-gradient-to-r from-[#1f1f1f]/80 via-[#2c2c2c]/80 to-[#1f1f1f]/80 
-                        border-2 rounded-4xl border-gradient-to-r from-[#e99b63] via-[#ffd87f] to-[#e99b63] 
-                        p-6 sm:p-8 max-w-md shadow-2xl hover:shadow-3xl 
-                        hover:scale-105 transition-transform duration-300 backdrop-blur-sm">
-          <p className="text-gray-100 text-center text-lg sm:text-xl leading-relaxed">
-            Interested in knowing more about my work and expertise? <br />
-            Explore the sections above to see my <span className="font-semibold text-[#e99b63]">skills</span>, 
+        <div className="bg-gray-800 rounded-xl p-6 max-w-md mx-auto text-center mt-8">
+          <p className="text-gray-100 text-lg sm:text-xl leading-relaxed">
+            Curious to know more about me? <br />
+            Explore the sections above to check out my <span className="font-semibold text-[#e99b63]">skills</span>, 
             <span className="font-semibold text-[#e99b63]"> experience</span>, and 
-            <span className="font-semibold text-[#e99b63]"> projects</span> that define my journey in technology.
+            <span className="font-semibold text-[#e99b63]"> projects</span>.
           </p>
         </div>
       </div>
